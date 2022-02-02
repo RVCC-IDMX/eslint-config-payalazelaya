@@ -1,1 +1,8 @@
-# template
+# ESLint Config
+## Let's Learn a VS Code Setting
+`"editor.tabSize": 2`
+When it comes to “editor.tabSize”: 2, what this setting does is it counts how many spaces there should be when the tab key is entered. Going onto Visual Studio Code, you would have to navigate to the settings which would be by going to Code -> Preferences -> Settings on macOS or File -> Preferences -> Settings on Windows. In the search bar at the type, you would type “indentation” to get your search. Scroll till you see “Editor: Tab Size” and replace the default number of spaces that happens when the tab key is pressed and replace it with 2 instead. From there, you do not have to do anything else other than check that 2 spaces are noticeable when the tab key is pressed.
+[Resource](https://www.kindacode.com/article/vs-code-how-to-change-indentation-2-spaces-4-spaces/)
+## Let's Learn an EsLint Rule
+When it comes to learning about this rule, it is important to know about it because it leaves lines of code that are not used blank or empty. Having spaces in lines of code that don't have anything will lead for the source control system(s) to pick them up and consider them as errors, which can make coders have a hard time dealing with one's code. It is not a bad thing that the extra spaces in lines of code don't cause functional issues, but it is ideal to get rid of them instead.
+[Resource](https://eslint.org/docs/rules/no-trailing-spaces)
